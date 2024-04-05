@@ -45,5 +45,7 @@ Pod::Spec.new do |s|
 
         s.source_files = 'VRGSoftSwiftIOSKit/Core/**/*.swift'
 
-        s.dependency 'Alamofire', '~> 5.6.2'
+        s.dependency 'Alamofire', '~> 5.9.1'
+        
+        s.resource_bundles = {'VRGSoftSwiftIOSKit' => ['Resources/VRGSoftSwiftIOSKit/PrivacyInfo.xcprivacy']}
 end
